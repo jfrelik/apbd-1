@@ -6,6 +6,8 @@ public class Program
     {
         int g = 10;
         
+        Console.WriteLine("Hello world");
+        
         
     }
 }
