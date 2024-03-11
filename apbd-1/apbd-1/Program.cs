@@ -8,6 +8,7 @@ public class Program
         
         Console.WriteLine("Hello world");
         
+        Console.WriteLine("Buenos dias");
         
     }
 }
