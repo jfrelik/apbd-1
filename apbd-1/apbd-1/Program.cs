@@ -14,11 +14,16 @@ public class Program
     static int calculateAvg(int[] tab)
     {
         int avg = 0;
-        for (int x = 0; x < tab.Length; x++)
+        for (int j = 0; j < tab.Length; j++)
         {
-            avg += tab[x];
+            avg += tab[j];
         }
 
         return avg / tab.Length;
+    }
+
+    static int findMax(int[] tab)
+    {
+        return tab.Max();
     }
 }
