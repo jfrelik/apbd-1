@@ -21,4 +21,9 @@ public class Program
 
         return avg / tab.Length;
     }
+
+    static int findMax(int[] tab)
+    {
+        return tab.Max();
+    }
 }
