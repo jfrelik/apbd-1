@@ -14,9 +14,9 @@ public class Program
     static int calculateAvg(int[] tab)
     {
         int avg = 0;
-        for (int i = 0; i < tab.Length; i++)
+        for (int j = 0; j < tab.Length; j++)
         {
-            avg += tab[i];
+            avg += tab[j];
         }
 
         return avg / tab.Length;
